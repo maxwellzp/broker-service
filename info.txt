@@ -1,0 +1,12 @@
+dev@dev-machine:/home/developer/go-microservices/broker-service$ go mod init broker
+go: creating new go.mod: module broker
+go: to add module requirements and sums:
+        go mod tidy
+dev@dev-machine:/home/developer/go-microservices/broker-service$ go get github.com/go-chi/chi/v5
+go: added github.com/go-chi/chi/v5 v5.0.8
+dev@dev-machine:/home/developer/go-microservices/broker-service$ go get github.com/go-chi/chi/v5/middleware
+dev@dev-machine:/home/developer/go-microservices/broker-service$ 
+dev@dev-machine:/home/developer/go-microservices/broker-service$ go get github.com/go-chi/cors
+go: added github.com/go-chi/cors v1.2.1
+dev@dev-machine:/home/developer/go-microservices/broker-service$ 
+
