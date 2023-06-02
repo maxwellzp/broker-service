@@ -10,3 +10,6 @@ dev@dev-machine:/home/developer/go-microservices/broker-service$ go get github.c
 go: added github.com/go-chi/cors v1.2.1
 dev@dev-machine:/home/developer/go-microservices/broker-service$ 
 
+dev@dev-machine:/home/developer/go-microservices/broker-service$ go get github.com/rabbitmq/amqp091-go
+go: added github.com/rabbitmq/amqp091-go v1.8.1
+
