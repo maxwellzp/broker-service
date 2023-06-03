@@ -13,3 +13,17 @@ dev@dev-machine:/home/developer/go-microservices/broker-service$
 dev@dev-machine:/home/developer/go-microservices/broker-service$ go get github.com/rabbitmq/amqp091-go
 go: added github.com/rabbitmq/amqp091-go v1.8.1
 
+dev@dev-machine:/home/developer/go-microservices/broker-service/logs$ export PATH="$PATH:$HOME/go/bin"
+dev@dev-machine:/home/developer/go-microservices/broker-service/logs$ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative logs.proto
+dev@dev-machine:/home/developer/go-microservices/broker-service/logs$ 
+
+dev@dev-machine:/home/developer/go-microservices/broker-service$ go get google.golang.org/grpc
+go: added github.com/golang/protobuf v1.5.3
+go: added golang.org/x/net v0.8.0
+go: added golang.org/x/sys v0.6.0
+go: added golang.org/x/text v0.8.0
+go: added google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
+go: added google.golang.org/grpc v1.55.0
+go: added google.golang.org/protobuf v1.30.0
+dev@dev-machine:/home/developer/go-microservices/broker-service$ 
+
